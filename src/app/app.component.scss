@@ -1,0 +1,20 @@
+:host{
+  display: block;
+}
+.app-content{}
+.app-tabs{
+  height: 50px;
+  display: flex;
+  li{
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    background: #fafafa;
+    color: #4a4a4a;
+    flex: 1;
+    &.active{
+      background: #1976d2;
+      color: #ffffff;
+    }
+  }
+}

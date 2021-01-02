@@ -1,0 +1,8 @@
+{
+  "code": 200,
+  "data": {
+    "name": "Admin",
+    "id": 1,
+    "birthday": "2000-01-01"
+  }
+}
