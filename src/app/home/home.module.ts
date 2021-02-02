@@ -4,12 +4,11 @@ import { HomeIndexComponent } from './home-index/home-index.component';
 import { HomeRoutingModule } from './home-routing.module';
 
 
-
 @NgModule({
   declarations: [HomeIndexComponent],
   imports: [
     CommonModule,
-    HomeRoutingModule
+    HomeRoutingModule,
   ]
 })
 export class HomeModule { }

@@ -4,12 +4,12 @@
  Description:
 */
 
-import * as fromUser from './user.reducer';
-import * as fromTask from './task.reducer';
+import * as fromUser from './reducer/user.reducer';
+import * as fromTask from './reducer/task.reducer';
 import { StoreModule } from '@ngrx/store';
 import { NgModule } from '@angular/core';
 import { StoreDevtoolsModule } from '@ngrx/store-devtools';
-import { environment } from '../../../environments/environment';
+import { environment } from '../../environments/environment';
 
 export interface State {
   user: fromUser.UserState;
